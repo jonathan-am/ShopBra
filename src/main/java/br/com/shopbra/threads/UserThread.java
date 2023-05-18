@@ -14,7 +14,7 @@ public class UserThread {
 	
 	@Async
 	public void deleteUpdateUserThread() {
-			new Thread("token") {
+			new Thread(token) {
 				@Override
 				public void run() {
 					try {

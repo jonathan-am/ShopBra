@@ -98,7 +98,7 @@ public class UserServiceImpl implements UserService{
 	
 	private void validateCustomerType(String customerType) {
 		switch(customerType) {
-			case "ADM":
+			case "ADMIN":
 				break;
 			case "CUSTOMER":
 				break;
